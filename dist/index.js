@@ -538,7 +538,7 @@ function transformTrxToJson(filePath) {
                 if (runInfos && runInfos.RunInfo._outcome === 'Failed') {
                     core.warning('There is trouble');
                 }
-                const reportHeaders = getReportHeaders(testData);
+                const reportHeaders = getReportHeaders(testData, path.basename(filePath));
                 trxDataWrapper = {
                     TrxData: jsonString,
                     IsEmpty: IsEmpty(testData),
@@ -587,7 +587,7 @@ function areThereAnyFailingTests(trxJsonReports) {
     return false;
 }
 exports.areThereAnyFailingTests = areThereAnyFailingTests;
-function getReportHeaders(data) {
+function getReportHeaders(data, filename) {
     var _a, _b;
     let reportTitle = '';
     let reportName = '';
@@ -603,6 +603,10 @@ function getReportHeaders(data) {
         if (dllName) {
             reportTitle = dllName.replace('.dll', '').toUpperCase().replace('.', ' ');
             reportName = dllName.replace('.dll', '').toUpperCase();
+        }
+        else {
+            reportTitle = filename;
+            reportName = filename;
         }
     }
     return { reportName, reportTitle };

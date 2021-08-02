@@ -70,7 +70,7 @@ export async function transformTrxToJson(
         core.warning('There is trouble')
       }
 
-      const reportHeaders = getReportHeaders(testData)
+      const reportHeaders = getReportHeaders(testData, path.basename(filePath))
       trxDataWrapper = {
         TrxData: jsonString as TrxData,
         IsEmpty: IsEmpty(testData),
@@ -120,7 +120,8 @@ export function areThereAnyFailingTests(
 }
 
 function getReportHeaders(
-  data: TrxData
+  data: TrxData,
+  filename: string
 ): {reportName: string; reportTitle: string} {
   let reportTitle = ''
   let reportName = ''
@@ -139,6 +140,9 @@ function getReportHeaders(
     if (dllName) {
       reportTitle = dllName.replace('.dll', '').toUpperCase().replace('.', ' ')
       reportName = dllName.replace('.dll', '').toUpperCase()
+    } else {
+      reportTitle = filename
+      reportName = filename
     }
   }
 
