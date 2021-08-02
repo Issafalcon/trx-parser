@@ -2,9 +2,9 @@
 
 > This Action was inspired by https://github.com/zyborg/dotnet-tests-report
 
-[![Build](https://github.com/NasAmin/trx-parser/workflows/Build/badge.svg?branch=main)](https://github.com/NasAmin/trx-parser/actions?workflow=Build)
-[![Test](https://github.com/NasAmin/trx-parser/workflows/Test/badge.svg?branch=main)](https://github.com/NasAmin/trx-parser/actions?workflow=Test)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/NasAmin/trx-parser)](https://github.com/NasAmin/trx-parser/releases/latest)
+[![Build](https://github.com/Issafalcon/trx-parser/workflows/Build/badge.svg?branch=main)](https://github.com/Issafalcon/trx-parser/actions?workflow=Build)
+[![Test](https://github.com/Issafalcon/trx-parser/workflows/Test/badge.svg?branch=main)](https://github.com/Issafalcon/trx-parser/actions?workflow=Test)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Issafalcon/trx-parser)](https://github.com/Issafalcon/trx-parser/releases/latest)
 ---
 
 This GitHub Action provides a way of parsing dotnet test results from trx files in a given directory. The action will find trx files specified in the `TRX-PATH` input variable. This path must be accessible to the action.
