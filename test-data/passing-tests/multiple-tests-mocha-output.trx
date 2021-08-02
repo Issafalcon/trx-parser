@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="a1d21e74-3c65-4699-a1f2-048491b2d851" name="root@2d576fc2c0f5 2021-07-30 13:57:50" runUser="root">
+  <Times creation="2021-07-30T13:57:50.479Z" queuing="2021-07-30T13:57:50.479Z" start="2021-07-30T13:57:04.441Z" finish="2021-07-30T13:57:50.479Z"/>
+  <TestSettings name="Default Test Settings" id="ce1a4cfb-64fa-4d63-8815-e9984737a62c"/>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest id="a9fbfc19-cdcc-4722-9eeb-041eed44d06f" name="Notifications Menu Micro Front End Notifications Menu is NOT displayed when the feature flag is disabled">
+      <Execution id="d1da7a2b-250a-46bc-ba44-fb7816eb8b3b"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="4efbabeb-d15a-4c56-9d8f-f7c23969984a" name="Notifications Menu Micro Front End Notifications Menu is displayed when the feature flag is enabled">
+      <Execution id="bec460dc-19a2-47a5-809a-1ed26acc3386"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="d7a763d0-f72c-434c-b4b1-0562b5667065" name="Notifications Table Micro Front End Notifications Table is NOT displayed when the feature flag is disabled">
+      <Execution id="d5432e14-650f-44ec-8bf5-01299debeb91"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="9c0b09a6-9e65-4f0e-9291-a5b5c2792d59" name="Notifications Table Micro Front End Notifications Table is displayed when the feature flag is enabled">
+      <Execution id="810adb8b-3eb1-44d0-8aa5-1eee04f51629"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="f804ae80-6e16-46d2-bcaa-a12b05906ac5" name="Subscriptions Table Micro Front End Subscriptions Table is NOT displayed when the feature flag is disabled">
+      <Execution id="b1eb0801-f41f-4164-88ea-f9ae9bbf0512"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="4394dde6-d81c-46e4-90b4-487f2b18dd29" name="Subscriptions Table Micro Front End Subscriptions Table is displayed when the feature flag is enabled">
+      <Execution id="f098ec1a-bcda-4a76-b0cf-c31caed58c89"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+    <UnitTest id="ed10c8ab-b39f-40d8-a1dc-48817cd91d9c" name="Subscriptions Table Micro Front End Subscriptions Table displays the 'No Subscriptions' message when there are no subscriptions">
+      <Execution id="128f412b-9c55-4b49-98c4-84f2e08e10f8"/>
+      <TestMethod codeBase="none" className="none" name="none"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List"/>
+    <TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a9fbfc19-cdcc-4722-9eeb-041eed44d06f" executionId="d1da7a2b-250a-46bc-ba44-fb7816eb8b3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4efbabeb-d15a-4c56-9d8f-f7c23969984a" executionId="bec460dc-19a2-47a5-809a-1ed26acc3386" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="d7a763d0-f72c-434c-b4b1-0562b5667065" executionId="d5432e14-650f-44ec-8bf5-01299debeb91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="9c0b09a6-9e65-4f0e-9291-a5b5c2792d59" executionId="810adb8b-3eb1-44d0-8aa5-1eee04f51629" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="f804ae80-6e16-46d2-bcaa-a12b05906ac5" executionId="b1eb0801-f41f-4164-88ea-f9ae9bbf0512" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="4394dde6-d81c-46e4-90b4-487f2b18dd29" executionId="f098ec1a-bcda-4a76-b0cf-c31caed58c89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ed10c8ab-b39f-40d8-a1dc-48817cd91d9c" executionId="128f412b-9c55-4b49-98c4-84f2e08e10f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="a9fbfc19-cdcc-4722-9eeb-041eed44d06f" testName="Notifications Menu Micro Front End Notifications Menu is NOT displayed when the feature flag is disabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:04.545Z" endTime="2021-07-30T13:57:46.783Z" duration="00:00:11.448" executionId="d1da7a2b-250a-46bc-ba44-fb7816eb8b3b" relativeResultsDirectory="d1da7a2b-250a-46bc-ba44-fb7816eb8b3b"/>
+    <UnitTestResult testId="4efbabeb-d15a-4c56-9d8f-f7c23969984a" testName="Notifications Menu Micro Front End Notifications Menu is displayed when the feature flag is enabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:46.783Z" endTime="2021-07-30T13:57:47.540Z" duration="00:00:00.739" executionId="bec460dc-19a2-47a5-809a-1ed26acc3386" relativeResultsDirectory="bec460dc-19a2-47a5-809a-1ed26acc3386"/>
+    <UnitTestResult testId="d7a763d0-f72c-434c-b4b1-0562b5667065" testName="Notifications Table Micro Front End Notifications Table is NOT displayed when the feature flag is disabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:47.559Z" endTime="2021-07-30T13:57:48.043Z" duration="00:00:00.480" executionId="d5432e14-650f-44ec-8bf5-01299debeb91" relativeResultsDirectory="d5432e14-650f-44ec-8bf5-01299debeb91"/>
+    <UnitTestResult testId="9c0b09a6-9e65-4f0e-9291-a5b5c2792d59" testName="Notifications Table Micro Front End Notifications Table is displayed when the feature flag is enabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:48.043Z" endTime="2021-07-30T13:57:48.608Z" duration="00:00:00.548" executionId="810adb8b-3eb1-44d0-8aa5-1eee04f51629" relativeResultsDirectory="810adb8b-3eb1-44d0-8aa5-1eee04f51629"/>
+    <UnitTestResult testId="f804ae80-6e16-46d2-bcaa-a12b05906ac5" testName="Subscriptions Table Micro Front End Subscriptions Table is NOT displayed when the feature flag is disabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:48.629Z" endTime="2021-07-30T13:57:49.177Z" duration="00:00:00.555" executionId="b1eb0801-f41f-4164-88ea-f9ae9bbf0512" relativeResultsDirectory="b1eb0801-f41f-4164-88ea-f9ae9bbf0512"/>
+    <UnitTestResult testId="4394dde6-d81c-46e4-90b4-487f2b18dd29" testName="Subscriptions Table Micro Front End Subscriptions Table is displayed when the feature flag is enabled" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:49.177Z" endTime="2021-07-30T13:57:49.933Z" duration="00:00:00.739" executionId="f098ec1a-bcda-4a76-b0cf-c31caed58c89" relativeResultsDirectory="f098ec1a-bcda-4a76-b0cf-c31caed58c89"/>
+    <UnitTestResult testId="ed10c8ab-b39f-40d8-a1dc-48817cd91d9c" testName="Subscriptions Table Micro Front End Subscriptions Table displays the 'No Subscriptions' message when there are no subscriptions" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="2d576fc2c0f5" outcome="Passed" startTime="2021-07-30T13:57:49.933Z" endTime="2021-07-30T13:57:50.479Z" duration="00:00:00.523" executionId="128f412b-9c55-4b49-98c4-84f2e08e10f8" relativeResultsDirectory="128f412b-9c55-4b49-98c4-84f2e08e10f8"/>
+  </Results>
+</TestRun>

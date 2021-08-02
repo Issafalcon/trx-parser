@@ -47,4 +47,14 @@ describe('when loading xml from a trx file', () => {
     expect(data.TrxData.TestRun.ResultSummary.Counters._passed).toEqual(1)
     expect(data.TrxData.TestRun.ResultSummary.Counters._failed).toEqual(0)
   })
+
+  test('Test data from a mocha-trx-reporter with multiple tests', async () => {
+    const data = await transformTrxToJson(
+      './test-data/passing-tests/multiple-tests-mocha-output.trx'
+    )
+    expect(data.TrxData.TestRun.ResultSummary._outcome).toEqual('Completed')
+    expect(data.TrxData.TestRun.ResultSummary.Counters._total).toEqual(7)
+    expect(data.TrxData.TestRun.ResultSummary.Counters._passed).toEqual(7)
+    expect(data.TrxData.TestRun.ResultSummary.Counters._failed).toEqual(0)
+  })
 })
